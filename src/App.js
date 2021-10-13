@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {process.env.REACT_APP_ENV_VAR}
         </a>
       </header>
     </div>
